@@ -7,7 +7,7 @@ export default class Cl_cGestionComensales {
         this.vista = vista;
         this.cComensal = controladorComensal;
         this.vista.onNuevoComensal(() => this.procesarNuevoComensal());
-        //this.cargarDatosIniciales();
+        this.cargarDatosIniciales();
         this.actualizarReportes();
     }
     cargarDatosIniciales() {
